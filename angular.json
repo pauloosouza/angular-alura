@@ -23,7 +23,10 @@
             "assets": [
               {
                 "glob": "**/*",
+<<<<<feture-footer
+                "input": "src/assets",
                 "input":"src/assets",
+>>>>>>master
                 "output": "assets"
               }
             ],
@@ -84,14 +87,20 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
+            
             "assets": [
               {
                 "glob": "**/*",
+<<<<<<feture-footer
+                "input": "src/assets",
+                "output": "assents"
                 "input": "src/assets"
+master
               }
             ],
             "styles": [
               "src/styles.css"
+
             ],
             "scripts": []
           }
