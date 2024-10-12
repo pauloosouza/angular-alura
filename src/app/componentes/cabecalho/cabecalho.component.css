@@ -1,6 +1,9 @@
 .cabecalho {
     background: url(../../../assets/Imagens/fundo-cabecalho.png);
+<<<<<< feture-footer
     background-size: cover; 
+    background-size: cover;
+>>>>>>master
     display: flex;
     align-items: center;
     justify-content: space-between;

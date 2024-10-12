@@ -23,7 +23,10 @@
             "assets": [
               {
                 "glob": "**/*",
+<<<<<feture-footer
                 "input": "src/assets",
+                "input":"src/assets",
+>>>>>>master
                 "output": "assets"
               }
             ],
@@ -88,9 +91,11 @@
             "assets": [
               {
                 "glob": "**/*",
+<<<<<<feture-footer
                 "input": "src/assets",
                 "output": "assents"
-                
+                "input": "src/assets"
+master
               }
             ],
             "styles": [

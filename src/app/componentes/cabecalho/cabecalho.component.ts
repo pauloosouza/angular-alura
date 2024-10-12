@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-cabecalho',
@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
   templateUrl: './cabecalho.component.html',
   styleUrl: './cabecalho.component.css'
 })
+<<<<<<feture-footer
 export class CabecalhoComponent {
-  
+export class CabecalhoComponent  implements OnInit{
+  constructor(){}
+  ngOnInit(): void {
+    
+  }
+>>>>>> master
 }
