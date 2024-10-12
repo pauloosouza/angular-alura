@@ -1,6 +1,6 @@
 .cabecalho {
-    background: url(/assets/imagens/fundo-cabecalho.png);
-    background-size: cover;
+    background: url(../../../assets/Imagens/fundo-cabecalho.png);
+    background-size: cover; 
     display: flex;
     align-items: center;
     justify-content: space-between;
