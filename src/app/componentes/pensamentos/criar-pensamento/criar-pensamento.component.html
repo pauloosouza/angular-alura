@@ -10,6 +10,7 @@
             id="pensamento"
             name="pensamento"
             placeholder="Digite o pensamento"
+            [(ngModel)]="pensamentos.conteudo"
         >
         <label for="autoria"> Autoria ou Fonte </label>
         <input 
@@ -18,6 +19,7 @@
             id="autoria"
             name="autoria"
             placeholder="Digite a pensamento ou Fonte"
+            [value]="pensamentos.autoria"
         >
 
                     <!-- Aqui começa a primeiro modelo  -->
@@ -43,8 +45,8 @@
                 <div class="modelo modelo1 ff-roboto-mono">
                     <img src="../../../../assets/Imagens/modelo1.png" alt=" Aspas azuis">
 
-                    <p class="conteudo">Aqui vai o conteúdo</p>
-                    <p class="autoria"> <b> vai a autoria </b>  </p>
+                    <p class="conteudo"> {{ pensamentos.conteudo }} </p>
+                    <p class="autoria"> <b> {{ pensamentos.autoria }} </b>  </p>
 
                 </div>
             </div>
@@ -70,8 +72,8 @@
                 <div class="modelo modelo2 ff-roboto-mono">
                     <img src="../../../../assets/Imagens/modelo2.png" alt=" Aspas azul claro">
 
-                    <p class="conteudo">Aqui vai o conteúdo</p>
-                    <p class="autoria"> <b> vai a autoria </b>  </p>
+                    <p class="conteudo"> {{ pensamentos.conteudo }}</p>
+                    <p class="autoria"> <b> {{ pensamentos.autoria }} </b>  </p>
 
                 </div>
             </div>
@@ -96,15 +98,15 @@
                 <div class="modelo modelo3 ff-roboto-mono">
                     <img src="../../../../assets/Imagens/modelo3.png" alt=" Aspas verdes">
 
-                    <p class="conteudo">Aqui vai o conteúdo</p>
-                    <p class="autoria"> <b> vai a autoria </b>  </p>
+                    <p class="conteudo"> {{ pensamentos.conteudo }}</p>
+                    <p class="autoria"> <b> {{ pensamentos.autoria }} </b> </p>
 
                 </div>
             </div>
         </div>
         <div class="acoes">
-            <button class="botao"> Salvar </button>
-            <button class="botao"> Cancelar </button>
+            <button (click)="criarPensamentos()" class="botao"> Salvar </button>
+            <button (click)="cancelarAcao()" class="botao"> Cancelar </button>
         </div>
     </form>
 </section>
