@@ -19,7 +19,7 @@
             id="autoria"
             name="autoria"
             placeholder="Digite a pensamento ou Fonte"
-            [value]="pensamentos.autoria"
+            [(ngModel)]="pensamentos.autoria"
         >
 
                     <!-- Aqui começa a primeiro modelo  -->
@@ -33,6 +33,7 @@
                     id="modelo1"
                     value="modelo1"
                     name="modelo-card"
+                    [(ngModel)]="pensamentos.Modelo"
                 >
                 <div class="custom-radio">
                     <span></span>
@@ -60,6 +61,7 @@
                     id="modelo2"
                     value="modelo2"
                     name="modelo-card"
+                    [(ngModel)]="pensamentos.Modelo"
                 >
                 <div class="custom-radio">
                     <span></span>
@@ -86,6 +88,7 @@
                     id="modelo3"
                     value="modelo3"
                     name="modelo-card"
+                    [(ngModel)]="pensamentos.Modelo"
                 >
                 <div class="custom-radio">
                     <span></span>

@@ -15,7 +15,7 @@ export class CriarPensamentoComponent {
     id:'1',
     conteudo: 'aprendendo angular',
     autoria: 'Dev',
-    Modelo: ''
+    Modelo: 'Modelo'
   }
   criarPensamentos(){
     alert("Novo pensamento criado");
